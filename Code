@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8">
+   <title> Exemplo de página HTML </title>
+   <style>/* Define a fonte padrão para todo o documento */
+body {
+  font-family: Right Slab, Book;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #E8A951; /* Azul */
+  color: #FFF;
+  padding: 10px;
+}
+
+/* Estilo para o título principal */
+header h1 {
+  color: #FFF
+  margin: 0;
+}
+
+/* Estilo para a navegação */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para as seções */
+section {
+  padding: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #BA3485; /* Azul */
+  color: #E8A951;
+  padding: 10px;
+  text-align: center;
+}
+   </style>
+  </head>
+  <body>
+    <header>
+      <h1> Título principal da página </h1>
+      <nav> 
+        <ul>
+          <li><a href="#"> Início </a></li>
+          <li><a href="#"> Sobre </a></li>
+          <li><a href="#"> Contatos </a></li>
+        </ul>  
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Seção 1 </h2>
+        <p>Este é um parágrafo simples </p>
+      </section>
+      <section>
+        <h2> Seção 1 </h2>
+        <p> Este é outro parágrafo simples. </p>
+      </section>
+    </main>
+    <footer>
+      <p> &copy; 2023 Exemplo de HTML. </p>
+    </footer>
+  </body>
+</html>
